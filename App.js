@@ -351,6 +351,7 @@ var controller = (function (budgetCtrl, UICtrl) {
 
             //6. Calculate and Update Percantage
             updatePercantage();
+            console.log(updateBudget);
         }
     };
     var ctrlDeleteItem = function (event) {
